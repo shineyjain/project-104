@@ -13,7 +13,7 @@ Webcam.set({
     document.getElementById("result").innerHTML='<img id="captured_image" src="'+data_uri+'"/>';
     });
     }
-    classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/qWGiTLT58/model.json',modelLoaded)
+    classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/-IQ-eaRWg/model.json',modelLoaded)
     
     function modelLoaded(){
     console.log("modelLoaded")
